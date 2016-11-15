@@ -19,7 +19,7 @@ except IndexError:
     # Notifies me if unable to obtain time or overlay_url
     print("IndexError in generated time or overlay_url!")
     # This is the user_id for @ningOTI
-    getauth.API.send_direct_message(user_id='793658837530136576',
+    getauth.API.send_direct_message(user_id='',
             text=time.strftime('[%H:%M %d/%m/%Y] - ') + 'IndexError!')
 
 if datetime not in history:
